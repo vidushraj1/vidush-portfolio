@@ -93,7 +93,7 @@ const Navigation = () => {
                 </button>
               ))}
               {/* 3. Updated the href and download attribute for the mobile link */}
-              <a href={resumePDF} download="AlexSmith_Resume.pdf" className="block">
+              <a href={resumePDF} download="Vidush_Resume.pdf" className="block">
                 <Button className="btn-gradient w-full">Download Resume</Button>
               </a>
               <Button 
