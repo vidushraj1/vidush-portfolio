@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ExternalLink, Github } from "lucide-react";
 
-// Importing all images using the absolute path alias
 import cliniGuideImage from "@/assets/cliniGuide.png"; 
 import SupremeVisualizationImage from "@/assets/SupremeVisualization.png";
 import CruiseShipImage from "@/assets/CruiseShip.png";
@@ -54,8 +53,9 @@ const Projects = () => {
       title: "Travel Ceylon",
       description: "A website recommending the best locations to visit in Sri Lanka. Developed using HTML, CSS, and JavaScript, it serves as a guide for travelers to explore the country's attractions.",
       image: TravelCeylonImage,
-      technologies: ["HTML", "CSS", "JavaScript"],
-      githubUrl: "https://github.com/vidushraj1/web_coursework_group"
+      technologies: ["React", "Vite", "JavaScript"],
+      liveUrl: "https://vidushraj1.github.io/travel-ceylon/",
+      githubUrl: "https://github.com/vidushraj1/travel-ceylon"
     }
   ];
 
@@ -88,7 +88,6 @@ const Projects = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 <div className="absolute top-4 right-4 flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  {/* LOGIC: Only show this button if liveUrl exists */}
                   {project.liveUrl && (
                     <Button
                       size="icon"
@@ -101,7 +100,6 @@ const Projects = () => {
                       </a>
                     </Button>
                   )}
-                  {/* GitHub button always shows */}
                   <Button
                     size="icon"
                     variant="outline"
@@ -136,7 +134,6 @@ const Projects = () => {
                 </div>
 
                 <div className="flex space-x-3 pt-2">
-                  {/* LOGIC: Only show this button if liveUrl exists */}
                   {project.liveUrl && (
                     <Button asChild className="btn-gradient flex-1">
                       <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
