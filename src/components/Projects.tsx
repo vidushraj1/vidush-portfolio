@@ -51,7 +51,7 @@ const Projects = () => {
     },
     {
       title: "Travel Ceylon",
-      description: "A website recommending the best locations to visit in Sri Lanka. Developed using HTML, CSS, and JavaScript, it serves as a guide for travelers to explore the country's attractions.",
+      description: "A website for tourists, developed as a group project using HTML, CSS, and JavaScript to showcase the best tourist destinations in Sri Lanka. Later refactored into a modern React + Vite application, optimized for performance, and deployed on GitHub Pages for public access.",
       image: TravelCeylonImage,
       technologies: ["React", "Vite", "JavaScript"],
       liveUrl: "https://vidushraj1.github.io/travel-ceylon/",
