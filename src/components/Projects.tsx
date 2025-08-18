@@ -36,11 +36,12 @@ const Projects = () => {
       githubUrl: "https://github.com/vidushraj1/Cruise-Ship-Boarding-Managing-Program"
     },
     {
-      title: "Skin Consultation Managing Program",
-      description: "A Java program with a Swing GUI for managing skin consultation bookings. It's built using Object-Oriented Programming (OOP) principles and provides full CRUD (Create, Read, Update, Delete) functionality for managing appointments and patient information.",
-      image: SkinConsultationImage,
-      technologies: ["Java", "Swing", "GUI", "OOP", "CRUD"],
-      githubUrl: "https://github.com/vidushraj1/Skin-Consultation-Managing-Program"
+      title: "Skin Consultation Web App (Java Swing Modernization)",
+      description: "A comprehensive project to modernize a legacy Java Swing desktop application into a full-stack, cloud-native web platform. The original app was completely re-architected with a React frontend and a Spring Boot REST API backend, featuring role-based access for patients and a secure, token-authenticated dashboard for administrators. The entire system is deployed on Google Cloud Platform, utilizing Cloud Run for the backend, a persistent Cloud SQL database, and Google Cloud Storage for image uploads.",
+      image: "SkinConsultationImage",
+      technologies: ["React", "Spring Boot", "Java", "PostgreSQL", "Google Cloud Platform (GCP)", "Docker", "REST API", "Spring Security (JWT)", "JPA/Hibernate", "Google Cloud Run", "Google Cloud SQL"],
+      githubUrl: "https://github.com/vidushraj1/Skin-Consultation-Managing-webapp",
+      liveUrl: "https://vidushraj1.github.io/Skin-Consultation-Managing-webapp/",
     },
     {
       title: "Progress Prediction Program",
