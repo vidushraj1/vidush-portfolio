@@ -37,18 +37,19 @@ const Projects = () => {
     },
     {
       title: "Skin Consultation Web App (Java Swing Modernization)",
-      description: "A comprehensive project to modernize a legacy Java Swing desktop application into a full-stack, cloud-native web platform. The original app was completely re-architected with a React frontend and a Spring Boot REST API backend, featuring role-based access for patients and a secure, token-authenticated dashboard for administrators. The entire system is deployed on Google Cloud Platform, utilizing Cloud Run for the backend, a persistent Cloud SQL database, and Google Cloud Storage for image uploads.",
+      description: "A comprehensive project to modernize a legacy Java Swing desktop application into a full-stack, cloud-native web platform. The original app was completely re-architected with a React frontend and a Spring Boot REST API backend, featuring role-based access for patients and a secure, token-authenticated dashboard for administrators. The entire system is deployed on Google Cloud Platform, utilizing Cloud Run for the backend, a persistent Mongo database, and Google Cloud Storage for image uploads.",
       image: SkinConsultationImage,
-      technologies: ["React", "Spring Boot", "Java", "PostgreSQL", "Google Cloud Platform (GCP)", "Docker", "REST API", "Spring Security (JWT)", "JPA/Hibernate", "Google Cloud Run", "Google Cloud SQL"],
+      technologies: ["React", "Spring Boot", "Java", "MongoDB", "Google Cloud Platform (GCP)", "Docker", "REST API", "Spring Security (JWT)", "Google Cloud Run"],
       githubUrl: "https://github.com/vidushraj1/Skin-Consultation-Managing-webapp",
       liveUrl: "https://vidushraj1.github.io/Skin-Consultation-Managing-webapp/",
     },
     {
-      title: "Progress Prediction Program",
-      description: "A Python program designed to calculate and display student grades, mark distributions, and overall performance metrics based on university scores.",
+      title: "University Progression Calculator (Python CLI Modernization)",
+      description: "A full-stack project to re-engineer a procedural Python CLI tool into a cloud-native web application. The original command-line script was completely refactored with a responsive React (TypeScript) frontend and a stateless Flask REST API backend. The system features a dynamic, role-based UI for both students and staff and is deployed on a modern, serverless cloud infrastructure, with the backend running on Google Cloud Run and the frontend hosted on GitHub Pages.",
       image: ProgressImage,
-      technologies: ["Python", "Data Analysis", "Metrics"],
-      githubUrl: "https://github.com/vidushraj1/Progress-Prediction-Program"
+      technologies: ["React", "TypeScript", "Flask", "Python", "Docker", "Google Cloud Run", "GitHub Actions"],
+      githubUrl: "https://github.com/vidushraj1/university-progression-calculator-webapp",
+      liveUrl: "https://vidushraj1.github.io/university-progression-calculator-webapp/"
     },
     {
       title: "Travel Ceylon",
