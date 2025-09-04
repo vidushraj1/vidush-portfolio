@@ -29,11 +29,12 @@ const Projects = () => {
       githubUrl: "https://github.com/vidushraj1/Supreme-Visualization"
     },
     {
-      title: "CruiseShip Boarding Managing Program",
-      description: "A Java program designed to manage cruise ship boarding. It provides basic CRUD (Create, Read, Update, Delete) functionality to handle passenger data, including boarding, editing, and deleting records.",
+      title: "Cruise Ship Management App (Java CLI Modernization)",
+      description: "A complete modernization of a Java CLI tool into a full-stack, cloud-native web application. Features a React/TypeScript frontend and a Spring Boot backend. Manages bookings, a dynamic waiting list, expenses, and data import/export with a polished, animated UI, all deployed on Google Cloud Platform and GitHub Pages.",
       image: CruiseShipImage,
-      technologies: ["Java", "CRUD", "OOP"],
-      githubUrl: "https://github.com/vidushraj1/Cruise-Ship-Boarding-Managing-Program"
+      technologies: ["React", "TypeScript", "Spring Boot", "Java", "Docker", "Google Cloud", "Mantine UI", "Framer Motion"],
+      githubUrl: "https://github.com/vidushraj1/cruiseship-management-webapp",
+      liveUrl: "https://vidushraj1.github.io/cruiseship-management-webapp/"
     },
     {
       title: "Skin Consultation Web App (Java Swing Modernization)",
